@@ -1,2 +1,48 @@
 
 /* Your CSS Code here. */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #fafafa;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+table {
+  width: 60%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  background: #fff;
+}
+
+th, td {
+  border: 1px solid #999;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #333;
+  color: white;
+}
+
+ol {
+  width: 60%;
+  margin: 20px auto;
+  list-style-position: inside;
+}
+
+ol li {
+  margin: 15px 0;
+  text-align: center;
+}
+
+img, video, audio {
+  display: block;
+  margin: 10px auto;
+  border-radius: 8px;
+}
